@@ -29,6 +29,7 @@ body {
     background-color: rgba(135, 135, 135, 0.225);
     position:fixed;
     width: 100%;
+    max-width:500px;
     top: 0px;
     height: 5vh;
 }
@@ -109,7 +110,8 @@ body {
 .bottom {
     background-color: inherit;
     position:fixed;
-    width: 98%;
+        width: 98%;
+    max-width: 489px;
     bottom: 0px;
     padding: 1%;
     display: flex;
